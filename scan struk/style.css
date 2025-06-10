@@ -1,0 +1,71 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.scanner-card, .history-card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.scanner-card:hover {
+    transform: translateY(-5px);
+}
+
+.upload-area {
+    margin-top: 1.5rem;
+    border: 2px dashed #0d6efd;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #f8f9fa;
+}
+
+.upload-label {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    color: #0d6efd;
+}
+
+#preview {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    border: 1px solid #dee2e6;
+}
+
+#loader {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+#output pre {
+    text-align: left;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Agar teks tidak melebar keluar */
+    word-wrap: break-word;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#downloadBtn {
+    font-weight: 500;
+}
+
+#historyTable .table {
+    margin-bottom: 0;
+}
